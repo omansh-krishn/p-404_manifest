@@ -157,6 +157,9 @@
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="404" />
 
+  <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="404" revision="rippa-legacy-um" />
+
   <!-- System -->
   <remove-project name="platform/system/bpf" />
   <project path="system/bpf" name="android_system_bpf" remote="404" />
